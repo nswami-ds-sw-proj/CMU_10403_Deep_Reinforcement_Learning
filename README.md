@@ -10,5 +10,6 @@ method of optimizing a model. We used this algorithm to train and develop a poli
 See attached .pdf for writeup
 
 -https://cmudeeprl.github.io/Spring202010403website/assets/lectures/s20_lecture2_bandits_updated.pdf
+
+
 -https://distill.pub/2019/visual-exploration-gaussian-processes/
--
