@@ -1,4 +1,4 @@
-# 10-403 Assignment 1: Bayesian Optimization w/ Gaussian Processes + CMA-ES
+# 10-403 Deep Reinforcement Learning Assignment 1: Bayesian Optimization w/ Gaussian Processes + CMA-ES
 
 ## Gaussian Processes (GP) / Bayesian Optimization
 In this assignment we implemented and analyzed Bayesian Optimization via Gaussian Processes, using various acquisition functions. The three acquisition functions used were GP-greedy, GP-UCB (Upper Confidence Bound), and GP-Thompson (based on Thompson Sampling). Attached code implements this process on self-generated datasets, and the average returns over time for the three acquisition functions is plotted as a function of steps taken in the GP. We used a squared exponential kernel (RBF Kernel) to generate the appropriate covariance matrices in this implementation.
