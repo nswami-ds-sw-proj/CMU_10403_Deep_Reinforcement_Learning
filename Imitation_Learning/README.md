@@ -12,3 +12,9 @@ Behaviour Cloning is a supervised form of imitation learning, where the emphasis
 
 ## DAgger
 In this algorithm, as with Behaviour Cloning we consult with the expert policy. However, in each episode, or rollout, we generated an episode with our untrained policy, collected the states visited during each trajectory, and generated state-action pairs to aggregate to the dataset, by consulting with our expert policy during each episode. This policy was trained according to this algorithm for 100 total iterations, with varying number of episodes rolled out per iteration.
+
+Reference Links: https://medium.com/@SmartLabAI/a-brief-overview-of-imitation-learning-8a8a75c44a9c
+
+https://cmudeeprl.github.io/Spring202010403website/assets/lectures/s20_lecture5.pdf
+
+
