@@ -13,3 +13,34 @@ The --model flag should point to a model weights file, with the extension .h5, w
 
 A random seed and keras random seed are set for the environment, so all experiments should be repeatable.
 
+
+REINFORCE /A2C Implementation
+
+
+
+To change any of the hyperparameters, edit the default arguments in the parse_arguments() or enter the desired hyperparams according to the appropriate flags 
+outlined in that function
+When running Advantage-Actor-Critic, make sure that the file a2c.py is in the same directory as reinforce.py, as the A2C implementation inherits from the REINFORCE 
+implementation. 
+
+
+
+
+
+
+
+
+
+Reference Links
+
+
+https://www.mlq.ai/deep-reinforcement-learning-q-learning/
+
+https://paperswithcode.com/method/reinforce
+
+
+https://danieltakeshi.github.io/2018/06/28/a2c-a3c/
+
+
+
+
